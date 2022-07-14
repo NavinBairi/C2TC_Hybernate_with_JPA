@@ -1,3 +1,7 @@
+TABLE_PER_CLASS
+
+
+
 create database demo_tpc;
 use demo_tpc;
 
