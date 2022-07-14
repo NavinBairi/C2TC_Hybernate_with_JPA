@@ -1,0 +1,9 @@
+use database_name;
+create table emp_store(
+ employeeId INT NOT NULL,
+ name VARCHAR(45) NOT NULL,
+ salary INT NOT NULL,
+ PRIMARY KEY (employeeId)
+);
+
+select * from emp_store;
