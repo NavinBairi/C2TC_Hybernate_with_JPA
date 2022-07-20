@@ -1,0 +1,16 @@
+use database_name;
+
+Create table Address
+(
+Address_id int primary KEY ,
+Address_Street  VARCHAR(20),
+Address_City VARCHAR(20),
+Address_State VARCHAR(20),
+Address_ZipCode INT );
+SELECT * FROM ADDRESS;
+CREATE TABLE Students
+(STUDENTID INT PRIMARY KEY,
+NAME VARCHAR(20),
+Address_Id INT REFERENCES ADDRESS(Address_id)
+);
+SELECT * FROM STUDENTS;
